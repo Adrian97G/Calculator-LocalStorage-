@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Encode+Sans+Semi+Condensed:wght@600&family=Montserrat&family=Poppins:wght@400;500;800&family=Work+Sans:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 0.8s ease;
+  }
+  
+  body {
+    position: absolute;
+    margin: auto;
+    background-color: #61c8b7b6;
+    margin: 0;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+  }
+  
+  img {
+    position: relative;
+    width: 80px;
+    height: auto;
+    bottom: 250px;
+    right: 160px;
+  }
+
+  #calculator {
+    position: relative;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    width: 570px;
+    display: block;
+    position: relative;
+    color: #0a1e23;
+    overflow: auto;
+  }
+
+  .container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: auto;
+  }
+  
+  .calculator {
+    position: relative;
+    height: auto;
+    width: auto;
+    right: 650px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(3, 2, 3);
+    background-color: rgba(255, 255, 255, 0.708);
+    overflow: auto;
+  }
+  .calculator #display {
+    color:#0a1e23;
+    margin: 0 10px;
+    height: 120px;
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    overflow: auto;
+  }
+  .calculator #equal {
+    height: 130px;
+  }
+  .calculator #clear {
+    background-color: #ffd5d8;
+    color: #fc4552;
+  }
+  .calculator .btn-number {
+    background-color: #c3eaff;
+    color: #000000;
+  }
+  .calculator .btn-operator {
+    background-color: #ffd0fb;
+    color: #ff26f8;
+  }
+  .calculator .btn-equal {
+    background-color: #adf9e7;
+    color: #000;
+  }
+  .calculator.dark {
+    background-color: #1B1B1B;
+  }
+  .calculator.dark #display {
+    color: #f8fafb;
+  }
+  .calculator.dark #clear {
+    background-color: #4C35AA;
+    color: white;
+  }
+  .calculator.dark .btn-number {
+    background-color: #8EFDA6;
+    color: black;
+    font-weight: 600;
+  }
+  .calculator.dark .btn-operator {
+    background-color: #F0DB4F;
+    color: #aa00a4;
+  }
+  .calculator.dark .btn-equal {
+    background-color: #F23B00;
+    color: #ffffff;
+  }
+  
+  .theme-toggler {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .theme-toggler::before {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #333;
+    z-index: -1;
+  }
+  
+  .theme-toggler.active {
+    color: #333;
+  }
+  .theme-toggler.active::before {
+    background-color: #fff;
+  }
+  
+  button {
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  button:hover {
+    transform: scale(1.1);
+  }
+
+  .localstorage {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    bottom: 23px;
+    right: 160px;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.895);
+    height: 575px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgba(4, 4, 4, 0.366);
+  }
+  .localstorage h1 {
+    position: absolute;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    right: 100px;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    position: absolute;
+    right: 170px;
+    top: 70px;
+    overflow: auto;
+    height: 400px;
+    width: 170px;
+    list-style-position: inside;
+  }
+
+  #borrarHistorial {
+    position: absolute;
+    left: 600px;
+    bottom: 300px;
+    background-color: rgba(0, 123, 255, 0.589);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500px;
+    overflow: auto;
+  }
+
+  .buttonClear button {
+    height: 70px;
+    width: 120px;
+    
+  }

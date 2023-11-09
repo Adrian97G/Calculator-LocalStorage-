@@ -16,8 +16,10 @@ You can perform basic operations and be able to view them in LocalStorage.
 
 ## Project Image
 
-![My Project](/Image%20calculator.PNG)
+![My Project](/Calculadora1.PNG)
 
-## :link: ## Link to see the project in action
+## :link: Link to see the project in action
 
-[Aquí puedes visitar mi sitio web](https://654c780be3b58a3e81e8942d--unique-frangipane-85f679.netlify.app/)
+[Here you can visit my website](https://calculator-adrian-dev.netlify.app)https://calculator-adrian-dev.netlify.app)
+
+## :wave: Greetings!!
